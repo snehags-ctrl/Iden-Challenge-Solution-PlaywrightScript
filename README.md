@@ -164,27 +164,6 @@ APP_URL = "https://hiring.idenhq.com/"
 - **Backup System**: Automatic backup creation (once per run) and restoration
 - **Session Management**: Intelligent session handling and validation
 - **Progress Persistence**: Incremental, batched data saving
-
-## 📦 Submission (GitHub + Portal)
-
-1) Create a new GitHub repository (public preferred). Copy its HTTPS URL.
-2) From this folder:
-```bash
-git init
-git add iden_challenge.py requirements.txt README.md SETUP.md after_navigation.png
-# Optional: keep run artifacts out of git
-echo products.json>> .gitignore
-echo products.json.backup>> .gitignore
-echo session.json>> .gitignore
-echo scraping.log>> .gitignore
-git add .gitignore
-git commit -m "Iden Challenge: Playwright automation solution"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo>.git
-git push -u origin main
-```
-3) In the challenge app, open "Submit Script", paste your repo URL, and submit.
-
 ## 🎉 Success Metrics
 
 ### **Challenge Completion**
